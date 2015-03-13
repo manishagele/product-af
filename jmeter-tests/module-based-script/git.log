@@ -1,8 +1,11 @@
-fatal: unable to access 'https://USERRPsHe52Udeveloper%40manipiya3.com:password@apps.appfactory.private.wso2.com:8443/git/manipiya3.com/APPw4WrK8Q0war.git/': The requested URL returned error: 403
-./clone_and_push.sh: line 32: cd: /home/manisha/gitcode/af-fork-mani/product-af/jmeter-tests/module-based-script/manipiya3.com/86e91ec5-952b-420c-a604-93e96a21660c/APPw4WrK8Q0war/: No such file or directory
-Warning: fetch updated the current branch head.
+fatal: unable to access 'https://USERRPsHe52Udeveloper%40manipiya3.com:password@apps.appfactory.private.wso2.comAlready up-to-date.
+9e] commit
+ 2 files changed, 6 insertions(+), 6 deletions(-)
+ create mode 100644 jmeter-tests/module-based-script/manipiya3.com/82c85715-b22c-4d37-850a-67c45c068c75/7792ee7d-253e-4990-ada0-20e773c6c037.java
+0c-a604-93e96a21660c/APPw4WrKWarning: fetch updated the current branch head.
 Warning: fast-forwarding your working tree from
 Warning: commit a5a8db67b53f37767eb3e5e59755d3e768dd9be6.
+7b53f37767eb3e5e59755d3e768dd9be6.
 Your configuration specifies to merge with the ref 'release-2.1.0'
 from the remote, but no such ref was fetched.
 warning: push.default is unset; its implicit value is changing in
