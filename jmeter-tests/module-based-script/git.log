@@ -1,10 +1,19 @@
-fatal: unable to access 'https://USERitGjC8J2developer%40manipiya3.com:password@apps.appfactory.private.wso2.comAlready up-to-date.
-com/APPw4WrK8Q0war.git/': The requested URL returned error: 403
-./clone_and_push.sh: line 32: cd: /home/manisha/gitcode/af-fork-mani/product-af/jmeter-tests/module-based-script/manipiya3.com/68eeb8eb-7082-490d-98be-28ca2c39fdd0/APPw4WrK8Q0war/: No such file or directory
-Warning: fetch updated the current branch head.
-Warning: fast-forwarding your working tree from
-Warning: commit b8a3a4af86b5ca6d956fd55b5bbbfe20a56eba4e.
 warning: push.default is unset; its implicit value is changing in
+Git 2.0 from 'matching' to 'simple'. To squelcAlready up-to-date.
+aintain the current behavior after the default changes, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+See 'git help config' and search for 'push.default' for furWarning: fetch updated the current branch head.
+Warning: fast-forwarding your working tree from
+Warning: commit 9755117da18aa54659ee2aed658c4ebce20f2d05.
+of Git)
+
+push.default is unset; its implicit value is changing in
 Git 2.0 from 'matching' to 'simple'. To squelch this message
 and maintain the current behavior after the default changes, use:
 
