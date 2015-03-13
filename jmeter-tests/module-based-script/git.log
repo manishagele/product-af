@@ -1,13 +1,12 @@
-fatal: unable to access 'https://USERcutxAlYodeveloper%40manipiya3.com:password@apps.appfactory.private.wso2.com:8443/git/manipiya3.com/APPIajNSTnBwar.git/': The requested URL returned error: 403
-./clone_and_push.sh: line 32: cd: /home/manisha/gitcode/af-fork-mani/product-af/jmeter-tests/module-based-script/manipiya3.com/fe93a543-d1af-48cb-9749-ce309d0be426/APPIajNSTnBwar/: No such file or directory
-Warning: fetch updated the current branch head.
+fatal: unable to access 'https://USER7hM2wRnydeveloper%40manipiya3.com:password@apps.appfactory.private.wso2.comAlready up-to-date.
+5b] commit
+ 3 files changed, 8 insertions(+), 16 deletions(-)
+ create mode 100644 jmeter-tests/module-based-script/manipiya3.com/17c76277-8e71-4f4f-8959-18512560d8a9/b49f3ffa-df9d-468b-938a-5fcac5f38222.java
+ create mode 100644 jmeter-tests/module-based-script/manipiya3.Warning: fetch updated the current branch head.
 Warning: fast-forwarding your working tree from
-Warning: commit 8689f9285e66a46ad167a4012300d8195369f6f2.
+Warning: commit f9e2bcc033fa513329e290281a37713e2db4ca4a.
 Your configuration specifies to merge with the ref 'release-2.1.0'
 from the remote, but no such ref was fetched.
-r git process is currently running, this probably means a
-git process crashed in this repository earlier. Make sure no other git
-process is running and remove the file manually to continue.
 warning: push.default is unset; its implicit value is changing in
 Git 2.0 from 'matching' to 'simple'. To squelch this message
 and maintain the current behavior after the default changes, use:
@@ -19,6 +18,10 @@ To squelch this message and adopt the new behavior now, use:
   git config --global push.default simple
 
 See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+ for 'push.default' for further information.
 (the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
 'current' instead of 'simple' if you sometimes use older versions of Git)
 
