@@ -1,11 +1,12 @@
-fatal: unable to access 'https://USERiWcFSJH2developer%40manipiya3.com:password@apps.appfactory.private.wso2.com:8443/git/manipiya3.com/APPNfCmvR3swar.git/': The requested URL returned error: 403
-./clone_and_push.sh: line 32: cd: /home/manisha/gitcode/af-fork-mani/product-af/jmeter-tests/module-based-script/manipiya3.com/6eeb8747-142b-4f47-a068-930e637fe774/APPNfCmvR3swar/: No such file or directory
+fatal: unable to access 'https://USERRPsHe52Udeveloper%40manipiya3.com:password@apps.appfactory.private.wso2.com:8443/git/manipiya3.com/APPw4WrK8Q0war.git/': The requested URL returned error: 403
+./clone_and_push.sh: line 32: cd: /home/manisha/gitcode/af-fork-mani/product-af/jmeter-tests/module-based-script/manipiya3.com/86e91ec5-952b-420c-a604-93e96a21660c/APPw4WrK8Q0war/: No such file or directory
 Warning: fetch updated the current branch head.
 Warning: fast-forwarding your working tree from
-Warning: commit 042dc84766487ea2ba55090bdfd7b39304ab6e9d.
+Warning: commit a5a8db67b53f37767eb3e5e59755d3e768dd9be6.
 Your configuration specifies to merge with the ref 'release-2.1.0'
 from the remote, but no such ref was fetched.
- this message
+warning: push.default is unset; its implicit value is changing in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
 and maintain the current behavior after the default changes, use:
 
   git config --global push.default matching
@@ -18,8 +19,7 @@ See 'git help config' and search for 'push.default' for further information.
 (the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
 'current' instead of 'simple' if you sometimes use older versions of Git)
 
- other git process is currently running, this probably means a
-git process crashed in this repository earlier. Make sure no other git
+ke sure no other git
 process is running and remove the file manually to continue.
 fatal: Unable to create '/home/manisha/gitcode/af-fork-mani/product-af/.git/index.lock': File exists.
 
