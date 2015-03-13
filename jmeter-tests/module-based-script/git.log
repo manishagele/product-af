@@ -1,11 +1,14 @@
 fatal: repository 'https://USERU0WN7eaddeveloper%40manipiya3.com:password@apps.appfactory.private.wso2.com:8443/Already up-to-date.
-PDD2bDk9Rwar.git/' not found
-./clone_and_push.sh: line 32: cd: /home/manisha/gitcode/af-fork-mani/product-af/jmeter-tests/module-based-script/manipiya3.com/e2d592a8-5adc-4316-8512-5ca0e8f5cfa8/APPDD2bDk9Rwar/: No such file or directory
+y... done
+.1.0 5041e68] commit
+ 2 files changed, 9 insertions(+), 8 deletions(-)
+ create mode 100644 jmeter-tests/module-based-script/manipiya3.com/f4f59276-8eb1-40e3-831d-dc1207de2e44/608ea8e3-4348-469c-a87b-92d3b642b6f3.java
+irectory
 TnBwar/: No such file or directory
 Warning: fetch updated the current branch head.
 Warning: fast-forwarding your working tree from
-Warning: commit de6b401dff72b8801c96d856a68ff7fd4356ea26.
- implicit value is changing in
+Warning: commit 042dc84766487ea2ba55090bdfd7b39304ab6e9d.
+warning: push.default is unset; its implicit value is changing in
 Git 2.0 from 'matching' to 'simple'. To squelch this message
 and maintain the current behavior after the default changes, use:
 
@@ -18,8 +21,6 @@ To squelch this message and adopt the new behavior now, use:
 See 'git help config' and search for 'push.default' for further information.
 (the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
 'current' instead of 'simple' if you sometimes use older versions of Git)
-
-etimes use older versions of Git)
 
  other git process is currently running, this probably means a
 git process crashed in this repository earlier. Make sure no other git
