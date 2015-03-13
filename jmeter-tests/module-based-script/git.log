@@ -1,15 +1,11 @@
-fatal: repository 'https://USERU0WN7eaddeveloper%40manipiya3.com:password@apps.appfactory.private.wso2.com:8443/Already up-to-date.
-y... done
-.1.0 5041e68] commit
- 2 files changed, 9 insertions(+), 8 deletions(-)
- create mode 100644 jmeter-tests/module-based-script/manipiya3.com/f4f59276-8eb1-40e3-831d-dc1207de2e44/608ea8e3-4348-469c-a87b-92d3b642b6f3.java
-irectory
-TnBwar/: No such file or directory
+fatal: unable to access 'https://USERiWcFSJH2developer%40manipiya3.com:password@apps.appfactory.private.wso2.com:8443/git/manipiya3.com/APPNfCmvR3swar.git/': The requested URL returned error: 403
+./clone_and_push.sh: line 32: cd: /home/manisha/gitcode/af-fork-mani/product-af/jmeter-tests/module-based-script/manipiya3.com/6eeb8747-142b-4f47-a068-930e637fe774/APPNfCmvR3swar/: No such file or directory
 Warning: fetch updated the current branch head.
 Warning: fast-forwarding your working tree from
 Warning: commit 042dc84766487ea2ba55090bdfd7b39304ab6e9d.
-warning: push.default is unset; its implicit value is changing in
-Git 2.0 from 'matching' to 'simple'. To squelch this message
+Your configuration specifies to merge with the ref 'release-2.1.0'
+from the remote, but no such ref was fetched.
+ this message
 and maintain the current behavior after the default changes, use:
 
   git config --global push.default matching
