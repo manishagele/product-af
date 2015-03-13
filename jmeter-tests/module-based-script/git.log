@@ -1,18 +1,12 @@
 warning: push.default is unset; its implicit value is changing in
-Git 2.0 from 'matching' to 'simple'. To squelch this message
-and maintain the current behavior after the default changes, use:
-
-  git config --global push.default matching
-
-To squelch this message and adopt the new behavior now, use:
-
-  git config --global push.default simple
-
-See 'git help config' and search for 'push.default' for further information.
-(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
-'current' instead of 'simple' if you sometimes use older versions of Git)
-
-push.default is unset; its implicit value is changing in
+Git 2.0 from 'matching' to 'simple'. To squelcAlready up-to-date.
+[release-2.1.0 d1d9867] commit
+ 2 files changed, 14 insertions(+), 8 deletions(-)
+ create mode 100644 jmeter-tests/module-based-script/manipiya3.com/f1b27927-3fc1-4c72-9bc1-52327f3aef51/e5bc3ef0-b10f-4702-9c3e-d3b73e1b1894.java
+nfig' and search for 'push.default' for furWarning: fetch updated the current branch head.
+Warning: fast-forwarding your working tree from
+Warning: commit d507af3160b435cebfb85ddf0d5bdf5e8ae90947.
+warning: push.default is unset; its implicit value is changing in
 Git 2.0 from 'matching' to 'simple'. To squelch this message
 and maintain the current behavior after the default changes, use:
 
