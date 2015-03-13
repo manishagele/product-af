@@ -1,12 +1,18 @@
-fatal: unable to access 'https://USERH98MI5dwdeveloper%40manipiya3.com:password@apps.appfactory.private.wso2.com:8443/git/manipiya3.com/APPsRcS1H0bwar.git/': The requested URL returned error: 403
-./clone_and_push.sh: line 32: cd: /home/manisha/gitcode/af-fork-mani/product-af/jmeter-tests/module-based-script/manipiya3.com/8698b9bf-168f-4da0-9533-e8f705a15213/APPsRcS1H0bwar/: No such file or directory
+fatal: unable to access 'https://USERH98MI5dwdeveloper%40manipiya3.com:password@apps.appfactory.private.wso2.com[release-2.1.0 fe0e0ca] commit
+ 2 files changed, 18 insertions(+), 16 deletions(-)
+ create mode 100644 jmeter-tests/module-based-script/manipiya3.com/ff859065-f6e9-4bda-a001-75c45162ef88/cd15a7c8-642f-43c9-8748-ecbfc691b7bd.java
+-9533-e8f705a15213/APPsRcS1H0bwar/: No such file or directory
 Warning: fetch updated the current branch head.
 Warning: fast-forwarding your working tree from
-Warning: commit 0076758a080bf387569d02ac101b98f74a9e364a.
-Your configuration specifies to merge with the ref 'release-2.1.0'
-from the remote, but no such ref was fetched.
- this message
-and maintain the current behavior after the default changes, use:
+Warning: commit 5a028fd487568d0bb658ea83c24c43e1f5272d2d.
+error: Entry 'jmeter-tests/module-based-script/git.log' would be overwritten by merge. Cannot merge.
+Cannot fast-forward your working tree.
+After making sure that you saved anything precious from
+$ git diff 5a028fd487568d0bb658ea83c24c43e1f5272d2d
+output, run
+$ git reset --hard
+to recover.
+ changes, use:
 
   git config --global push.default matching
 
@@ -18,8 +24,7 @@ See 'git help config' and search for 'push.default' for further information.
 (the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
 'current' instead of 'simple' if you sometimes use older versions of Git)
 
- other git process is currently running, this probably means a
-git process crashed in this repository earlier. Make sure no other git
+ke sure no other git
 process is running and remove the file manually to continue.
 fatal: Unable to create '/home/manisha/gitcode/af-fork-mani/product-af/.git/index.lock': File exists.
 
