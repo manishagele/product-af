@@ -1,12 +1,11 @@
-fatal: unable to access 'https://USERlGH9ajYbdeveloper%40manipiya3.com:password@apps.appfactory.private.wso2.comAlready up-to-date.
-[release-2.1.0 105f25f] commit
- 2 files changed, 17 insertions(+), 15 deletions(-)
- create mode 100644 jmeter-tests/module-based-script/manipiya3.com/9528e928-7c36-4cd2-a424-cc54709086a5/626310a2-a326-4eb9-9f53-f3bf6b680da0.java
-PPsRcS1Warning: fetch updated the current branch head.
+fatal: repository 'https://USERU0WN7eaddeveloper%40manipiya3.com:password@apps.appfactory.private.wso2.com:8443/Already up-to-date.
+PDD2bDk9Rwar.git/' not found
+./clone_and_push.sh: line 32: cd: /home/manisha/gitcode/af-fork-mani/product-af/jmeter-tests/module-based-script/manipiya3.com/e2d592a8-5adc-4316-8512-5ca0e8f5cfa8/APPDD2bDk9Rwar/: No such file or directory
+TnBwar/: No such file or directory
+Warning: fetch updated the current branch head.
 Warning: fast-forwarding your working tree from
-Warning: commit 4ac07b7aec315efcfea45ad91073f2d629d176cd.
-b6e06471e63a1094d66a72d9b13cf75eb.
-warning: push.default is unset; its implicit value is changing in
+Warning: commit de6b401dff72b8801c96d856a68ff7fd4356ea26.
+ implicit value is changing in
 Git 2.0 from 'matching' to 'simple'. To squelch this message
 and maintain the current behavior after the default changes, use:
 
@@ -19,6 +18,8 @@ To squelch this message and adopt the new behavior now, use:
 See 'git help config' and search for 'push.default' for further information.
 (the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
 'current' instead of 'simple' if you sometimes use older versions of Git)
+
+etimes use older versions of Git)
 
  other git process is currently running, this probably means a
 git process crashed in this repository earlier. Make sure no other git
