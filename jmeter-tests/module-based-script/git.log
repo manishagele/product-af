@@ -1,28 +1,25 @@
-fatal: unable to access 'https://USERRPsHe52Udeveloper%40manipiya3.com:password@apps.appfactory.private.wso2.comAlready up-to-date.
-9e] commit
- 2 files changed, 6 insertions(+), 6 deletions(-)
- create mode 100644 jmeter-tests/module-based-script/manipiya3.com/82c85715-b22c-4d37-850a-67c45c068c75/7792ee7d-253e-4990-ada0-20e773c6c037.java
-0c-a604-93e96a21660c/APPw4WrKWarning: fetch updated the current branch head.
+fatal: repository 'https://USERMA0w9EbJdeveloper%40manipiya3.com:password@apps.appfactory.private.wso2.com:8443/Already up-to-date.
+y... done
+ar.git/' not found
+./clone_and_push.sh: line 32: cd: /home/manisha/gitcode/af-fork-mani/product-af/jmeter-tests/module-based-script/manipiya3.com/3835b0ec-ab99-4a01-adf1-991d750acdb4/APPDD2bDk9Rwar/: No such file or directory
+Warning: fetch updated the current Warning: fetch updated the current branch head.
 Warning: fast-forwarding your working tree from
-Warning: commit a5a8db67b53f37767eb3e5e59755d3e768dd9be6.
-7b53f37767eb3e5e59755d3e768dd9be6.
-Your configuration specifies to merge with the ref 'release-2.1.0'
-from the remote, but no such ref was fetched.
-warning: push.default is unset; its implicit value is changing in
-Git 2.0 from 'matching' to 'simple'. To squelch this message
-and maintain the current behavior after the default changes, use:
+Warning: commit b85d84ddc6db8ecf2dddf5e15ec5482421fce4fb.
+fatal: Unable to create '/home/manisha/gitcode/af-fork-mani/product-af/.git/index.lock': File exists.
 
-  git config --global push.default matching
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+Cannot fast-forward your working tree.
+After making sure that you saved anything precious from
+$ git diff b85d84ddc6db8ecf2dddf5e15ec5482421fce4fb
+output, run
+$ git reset --hard
+to recover.
+fatal: Unable to create '/home/manisha/gitcode/af-fork-mani/product-af/.git/index.lock': File exists.
 
-To squelch this message and adopt the new behavior now, use:
-
-  git config --global push.default simple
-
-See 'git help config' and search for 'push.default' for further information.
-(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
-'current' instead of 'simple' if you sometimes use older versions of Git)
-
-ke sure no other git
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
 process is running and remove the file manually to continue.
 fatal: Unable to create '/home/manisha/gitcode/af-fork-mani/product-af/.git/index.lock': File exists.
 
