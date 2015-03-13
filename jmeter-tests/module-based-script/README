@@ -13,3 +13,6 @@ This provides jmeter scripts for load testing AppFactory setup.
 5. Run the jmeter script.
 	If you have total user count as 100, say 50 developers, 30 qa and 20 devops; set populate users thread group users=50(which means max user count among different groups), ramp up=30, loop=1
 	If you have 5 apps, the populate apps thread group values should be users=5, ramp up=10, loop=1
+
+
+2.1.1

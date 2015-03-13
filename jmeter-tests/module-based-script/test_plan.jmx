@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jmeterTestPlan version="1.2" properties="2.6" jmeter="2.11 r1554548">
+<jmeterTestPlan version="1.2" properties="2.3" jmeter="2.8 r1393162">
   <hashTree>
     <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="Test Plan" enabled="true">
       <stringProp name="TestPlan.comments"></stringProp>
@@ -9,12 +9,12 @@
         <collectionProp name="Arguments.arguments">
           <elementProp name="working_dir" elementType="Argument">
             <stringProp name="Argument.name">working_dir</stringProp>
-            <stringProp name="Argument.value">/home/manjula/source/wso2/git/product-af/jmeter-tests/module-based-script</stringProp>
+            <stringProp name="Argument.value">/home/manisha/gitcode/af-fork-mani/product-af/jmeter-tests/module-based-script</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="organization" elementType="Argument">
             <stringProp name="Argument.name">organization</stringProp>
-            <stringProp name="Argument.value">tom.com</stringProp>
+            <stringProp name="Argument.value">manipiya2.com</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="git_host_name" elementType="Argument">
@@ -34,12 +34,12 @@
           </elementProp>
           <elementProp name="username" elementType="Argument">
             <stringProp name="Argument.name">username</stringProp>
-            <stringProp name="Argument.value">tom</stringProp>
+            <stringProp name="Argument.value">manipiya2</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="password" elementType="Argument">
             <stringProp name="Argument.name">password</stringProp>
-            <stringProp name="Argument.value">manjula</stringProp>
+            <stringProp name="Argument.value">manipiya2</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="waiting_time" elementType="Argument">
@@ -59,17 +59,17 @@
           </elementProp>
           <elementProp name="tenant_domain" elementType="Argument">
             <stringProp name="Argument.name">tenant_domain</stringProp>
-            <stringProp name="Argument.value">tom.com</stringProp>
+            <stringProp name="Argument.value">manipiya2.com</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="tenant_admin" elementType="Argument">
             <stringProp name="Argument.name">tenant_admin</stringProp>
-            <stringProp name="Argument.value">tom</stringProp>
+            <stringProp name="Argument.value">manipiya2</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="tenant_admin_password" elementType="Argument">
             <stringProp name="Argument.name">tenant_admin_password</stringProp>
-            <stringProp name="Argument.value">manjula</stringProp>
+            <stringProp name="Argument.value">manipiya2</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="developer_count" elementType="Argument">
@@ -148,7 +148,7 @@
         <stringProp name="shareMode">shareMode.all</stringProp>
       </CSVDataSet>
       <hashTree/>
-      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="Populate Users" enabled="false">
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="Populate Users" enabled="true">
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
           <boolProp name="LoopController.continue_forever">false</boolProp>
@@ -1228,7 +1228,7 @@
         </ResultCollector>
         <hashTree/>
       </hashTree>
-      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="build and deploy" enabled="true">
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="build and deploy" enabled="false">
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
           <boolProp name="LoopController.continue_forever">false</boolProp>
