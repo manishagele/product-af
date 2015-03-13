@@ -1,36 +1,26 @@
-warning: push.default is unset; its implicit value is changing in
-Git 2.0 from 'matching' to 'simple'. To squelcAlready up-to-date.
-aintain the current behavior after the default changes, use:
-
-  git config --global push.default matching
-
-To squelch this message and adopt the new behavior now, use:
-
-  git config --global push.default simple
-
-See 'git help config' and search for 'push.default' for furWarning: fetch updated the current branch head.
+fatal: unable to access 'https://USERWyURYNWpdeveloper%40manipiya3.com:password@apps.appfactory.private.wso2.comAlready up-to-date.
+com/APPIajNSTnBwar.git/': The requested URL returned error: 403
+./clone_and_push.sh: line 32: cd: /home/manisha/gitcode/af-fork-mani/product-af/jmeter-tests/module-based-script/manipiya3.com/db75cff6-f41f-4d80-8e10-a5fe97602cd7/APPIajNSTnBwar/: No such file or directory
+Warning: fetch updated the current branch head.
 Warning: fast-forwarding your working tree from
 Warning: commit 9755117da18aa54659ee2aed658c4ebce20f2d05.
-of Git)
+fatal: Unable to create '/home/manisha/gitcode/af-fork-mani/product-af/.git/index.lock': File exists.
 
-push.default is unset; its implicit value is changing in
-Git 2.0 from 'matching' to 'simple'. To squelch this message
-and maintain the current behavior after the default changes, use:
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+Cannot fast-forward your working tree.
+After making sure that you saved anything precious from
+$ git diff 9755117da18aa54659ee2aed658c4ebce20f2d05
+output, run
+$ git reset --hard
+to recover.
+fatal: Unable to create '/home/manisha/gitcode/af-fork-mani/product-af/.git/index.lock': File exists.
 
-  git config --global push.default matching
-
-To squelch this message and adopt the new behavior now, use:
-
-  git config --global push.default simple
-
-See 'git help config' and search for 'push.default' for further information.
-(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
-'current' instead of 'simple' if you sometimes use older versions of Git)
-
-d remove the file manually to continue.
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
 warning: push.default is unset; its implicit value is changing in
-Git 2.0 from 'matching' to 'simple'. To squelch this message
-and maintain the current behavior after the default changes, uswarning: push.default is unset; its implicit value is changing in
 Git 2.0 from 'matching' to 'simple'. To squelch this message
 and maintain the current behavior after the default changes, use:
 
