@@ -1,9 +1,11 @@
 fatal: unable to access 'https://USERlGH9ajYbdeveloper%40manipiya3.com:password@apps.appfactory.private.wso2.comAlready up-to-date.
-com/APPsRcS1H0bwar.git/': The requested URL returned error: 403
-./clone_and_push.sh: line 32: cd: /home/manisha/gitcode/af-fork-mani/product-af/jmeter-tests/module-based-script/manipiya3.com/bbf29daa-b9aa-4e8a-b944-20ca3077eff1/APPsRcS1H0bwar/: No such file or directory
-Warning: fetch updated the current branch head.
+[release-2.1.0 105f25f] commit
+ 2 files changed, 17 insertions(+), 15 deletions(-)
+ create mode 100644 jmeter-tests/module-based-script/manipiya3.com/9528e928-7c36-4cd2-a424-cc54709086a5/626310a2-a326-4eb9-9f53-f3bf6b680da0.java
+PPsRcS1Warning: fetch updated the current branch head.
 Warning: fast-forwarding your working tree from
-Warning: commit 0ba50e3b6e06471e63a1094d66a72d9b13cf75eb.
+Warning: commit 4ac07b7aec315efcfea45ad91073f2d629d176cd.
+b6e06471e63a1094d66a72d9b13cf75eb.
 warning: push.default is unset; its implicit value is changing in
 Git 2.0 from 'matching' to 'simple'. To squelch this message
 and maintain the current behavior after the default changes, use:
