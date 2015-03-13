@@ -1,25 +1,21 @@
-fatal: repository 'https://USERqP70EdYddeveloper%40manipiya3.com:password@apps.appfactory.private.wso2.com:8443/git/manipiya3.com/APPDD2bDk9Rwar.git/' not found
-./clone_and_push.sh: line 32: cd: /home/manisha/gitcode/af-fork-mani/product-af/jmeter-tests/module-based-script/manipiya3.com/8fa33c23-0c06-478f-aaa8-c02678326686/APPDD2bDk9Rwar/: No such file or directory
-H0bwar/: No such file or directory
+fatal: unable to access 'https://USERnj3Zkooydeveloper%40manipiya3.com:password@apps.appfactory.private.wso2.com:8443/git/manipiya3.com/APPIajNSTnBwar.git/': The requested URL returned error: 403
+./clone_and_push.sh: line 32: cd: /home/manisha/gitcode/af-fork-mani/product-af/jmeter-tests/module-based-script/manipiya3.com/5be31968-fedd-4dbd-8936-4f0dfa3a347d/APPIajNSTnBwar/: No such file or directory
 Warning: fetch updated the current branch head.
 Warning: fast-forwarding your working tree from
-Warning: commit 7a0fd4428ed96caf5491884a1f2c435d1b40bb3a.
-Your configuration specifies to merge with the ref 'release-2.1.0'
+Warning: commit 7a0fd44Your configuration specifies to merge with the ref 'release-2.1.0'
 from the remote, but no such ref was fetched.
- this message
-and maintain the current behavior after the default changes, use:
+dex.lock': File exists.
 
-  git config --global push.default matching
-
-To squelch this message and adopt the new behavior now, use:
-
-  git config --global push.default simple
-
-See 'git help config' and search for 'push.default' for further information.
-(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
-'current' instead of 'simple' if you sometimes use older versions of Git)
-
-it/index.lock': File exists.
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+Cannot fast-forward your working tree.
+After making sure that you saved anything precious from
+$ git diff 7a0fd4428ed96caf5491884a1f2c435d1b40bb3a
+output, run
+$ git reset --hard
+to recover.
+fatal: Unable to create '/home/manisha/gitcode/af-fork-mani/product-af/.git/index.lock': File exists.
 
 If no other git process is currently running, this probably means a
 git process crashed in this repository earlier. Make sure no other git
